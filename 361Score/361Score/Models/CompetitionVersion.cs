@@ -21,5 +21,7 @@ namespace _361Score.Models
         public virtual Competition competition { get; set; }
         public virtual List<TeamCompetition> teamCompetitions { get; set; }
         public virtual List<Match> matches { get; set; }
+        public virtual List<Statistics> statistics { get; set; }
+        public virtual List<Standing> Standings { get; set; }
     }
 }

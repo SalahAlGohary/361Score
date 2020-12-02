@@ -235,6 +235,26 @@
     <Compile Include="Migrations\202011292153535_CreateMatchWithRelatedTablesTable.Designer.cs">
       <DependentUpon>202011292153535_CreateMatchWithRelatedTablesTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202011301747490_CreateModulationTableWithRelatedTables.cs" />
+    <Compile Include="Migrations\202011301747490_CreateModulationTableWithRelatedTables.Designer.cs">
+      <DependentUpon>202011301747490_CreateModulationTableWithRelatedTables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202011301806082_CreateMatchEventTableWithRelatedTables.cs" />
+    <Compile Include="Migrations\202011301806082_CreateMatchEventTableWithRelatedTables.Designer.cs">
+      <DependentUpon>202011301806082_CreateMatchEventTableWithRelatedTables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202011301822145_CreateStatisticsTable.cs" />
+    <Compile Include="Migrations\202011301822145_CreateStatisticsTable.Designer.cs">
+      <DependentUpon>202011301822145_CreateStatisticsTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202011301849305_CreateNewsTableWithRelatedTables.cs" />
+    <Compile Include="Migrations\202011301849305_CreateNewsTableWithRelatedTables.Designer.cs">
+      <DependentUpon>202011301849305_CreateNewsTableWithRelatedTables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202012020909210_CreateStandingTable.cs" />
+    <Compile Include="Migrations\202012020909210_CreateStandingTable.Designer.cs">
+      <DependentUpon>202012020909210_CreateStandingTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -244,11 +264,20 @@
     <Compile Include="Models\CompetitionVersion.cs" />
     <Compile Include="Models\Continent.cs" />
     <Compile Include="Models\Country.cs" />
+    <Compile Include="Models\EventTypes.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Match.cs" />
+    <Compile Include="Models\MatchEvent.cs" />
+    <Compile Include="Models\MatchList.cs" />
     <Compile Include="Models\MatchStatus.cs" />
+    <Compile Include="Models\Modulation.cs" />
+    <Compile Include="Models\News.cs" />
+    <Compile Include="Models\NewsTags.cs" />
     <Compile Include="Models\Player.cs" />
     <Compile Include="Models\PlayerPosition.cs" />
+    <Compile Include="Models\Standing.cs" />
+    <Compile Include="Models\Statistics.cs" />
+    <Compile Include="Models\Tags.cs" />
     <Compile Include="Models\Team.cs" />
     <Compile Include="Models\TeamCompetition.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -363,6 +392,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202011292153535_CreateMatchWithRelatedTablesTable.resx">
       <DependentUpon>202011292153535_CreateMatchWithRelatedTablesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011301747490_CreateModulationTableWithRelatedTables.resx">
+      <DependentUpon>202011301747490_CreateModulationTableWithRelatedTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011301806082_CreateMatchEventTableWithRelatedTables.resx">
+      <DependentUpon>202011301806082_CreateMatchEventTableWithRelatedTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011301822145_CreateStatisticsTable.resx">
+      <DependentUpon>202011301822145_CreateStatisticsTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011301849305_CreateNewsTableWithRelatedTables.resx">
+      <DependentUpon>202011301849305_CreateNewsTableWithRelatedTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012020909210_CreateStandingTable.resx">
+      <DependentUpon>202012020909210_CreateStandingTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

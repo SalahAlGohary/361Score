@@ -34,5 +34,8 @@ namespace _361Score.Models
         public int CountryId { get; set; }
         public virtual PlayerPosition position { get; set; }
         public virtual Country Country { get; set; }
+        public virtual List<MatchList> matchLists { get; set; }
+        public virtual List<MatchEvent> matchEvents { get; set; }
+        public virtual List<Statistics> statistics { get; set; }
     }
 }

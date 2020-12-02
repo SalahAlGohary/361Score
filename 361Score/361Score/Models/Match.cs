@@ -40,7 +40,10 @@ namespace _361Score.Models
         public virtual Team teamH { get; set; }
         public virtual Team teamA { get; set; }
         public CompetitionVersion competitionVersion { get; set; }
-        
+        public virtual List<Modulation> modulations { get; set; }
+        public virtual List<MatchEvent> matchEvents { get; set; }
+
+
 
     }
 }

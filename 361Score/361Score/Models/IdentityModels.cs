@@ -34,7 +34,19 @@ namespace _361Score.Models
         public DbSet<CompetitionType> competitionTypes { get; set; }
         public DbSet<CompetitionVersion> competitionVersions { get; set; }
         public DbSet<CompetitionCategory> competitionCategories { get; set; }
-        public  DbSet<TeamCompetition> teamCompetitions { get; set; }
+        public DbSet<TeamCompetition> teamCompetitions { get; set; }
+        public DbSet<Modulation> modulations { get; set; }
+        public DbSet<MatchList> matchLists { get; set; }
+        public DbSet<MatchEvent> matchEvents { get; set; }
+        public DbSet<EventTypes> eventTypes { get; set; }
+        public DbSet<Statistics> statistics { get; set; }
+        public DbSet<News> news { get; set; }
+        public DbSet<Tags> tags { get; set; }
+        public DbSet<NewsTags> newsTags { get; set; }
+        public DbSet<Standing> standings { get; set; }
+        public DbSet<Match> matches { get; set; }
+        public DbSet<MatchStatus> matchStatuses { get; set; }
+
 
 
         public static ApplicationDbContext Create()
